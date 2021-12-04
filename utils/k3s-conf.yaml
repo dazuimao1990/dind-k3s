@@ -1,0 +1,6 @@
+docker: true
+disable:
+  - "traefik" 
+node-name: "local-node" 
+data-dir: "/app/k3s" 
+write-kubeconfig: "/app/k3s/k3s.yaml"
